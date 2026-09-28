@@ -21,12 +21,16 @@ Combined information from:
 Rider dataset
 Trip dataset
 City-zone dataset
+
+
 2. Data Cleaning
 Mean imputation for numerical missing values.
 Most-frequent imputation for categorical values.
 KNN imputation for selected ride-related numerical features.
 Date format conversion.
 Removal of unrealistic records.
+
+
 3. Outlier Handling
 
 Applied:
@@ -34,11 +38,15 @@ Applied:
 Z-Score → Fare and Distance
 IQR → Duration
 Winsorization → Extreme surge fares
+
+
 4. Data Transformation
 Extracted date-related features.
 Applied categorical encoding.
 Created ride-frequency categories using binning.
 Applied logarithmic and square-root transformations to reduce skewness.
+
+
 5. Feature Scaling
 
 Used:
@@ -58,6 +66,7 @@ is_peak_hour
 days_since_signup
 ride_cancellation_rate
 surge_fare_amount
+
 📊 EDA & Visualization
 
 Performed basic exploratory analysis using:
